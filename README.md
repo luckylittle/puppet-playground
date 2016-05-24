@@ -1,1 +1,1 @@
-PUPPET-PLAYGROUND V2.0
+Lucian Maly's Puppet repository

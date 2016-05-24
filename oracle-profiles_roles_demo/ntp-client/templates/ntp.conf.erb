@@ -1,0 +1,19 @@
+#
+# This file is handled by Puppet
+#
+server <%= @ntp_server %>
+#server 0.europe.pool.ntp.org 
+#server 1.europe.pool.ntp.org 
+#server 2.europe.pool.ntp.org 
+#server 3.europe.pool.ntp.org 
+#server 127.127.1.0 
+fudge 127.127.1.0  stratum 10
+
+driftfile /var/lib/ntp/drift/ntp.drift  
+logfile /var/log/ntp		 
+
+keys /etc/ntp.keys		 
+trustedkey 1			 
+requestkey 1			 
+server utiluk.uk.oracle.com iburst
+restrict utiluk.uk.oracle.com  

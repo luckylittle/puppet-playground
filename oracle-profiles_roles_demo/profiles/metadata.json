@@ -1,0 +1,14 @@
+{
+  "name": "lmaly-profiles",
+  "version": "0.0.1",
+  "author": "Lucian Maly <lucian.maly@oracle.com>",
+  "summary": null,
+  "license": "Apache 2.0",
+  "source": "http://gitlab.com",
+  "issues_url": null,
+  "project_page": null,
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
+

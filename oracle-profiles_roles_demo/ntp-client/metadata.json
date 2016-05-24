@@ -1,0 +1,14 @@
+{
+  "name": "ntp-client",
+  "version": "0.0.1",
+  "author": "lucian.maly@oracle.com",
+  "summary": "NTP miniproject",
+  "license": "Apache 2.0",
+  "source": "gitlab.com",
+  "project_page": "https://gitlab.com/luckylittle/",
+  "issues_url": "lucian.maly@oracle.com",
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
+
