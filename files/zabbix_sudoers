@@ -1,4 +1,0 @@
-zabbix ALL=(ALL) NOPASSWD: /opt/MegaRAID/MegaCli/MegaCli64
-zabbix ALL=(ALL) NOPASSWD: /usr/local/sbin/megaraid_discovery_ld.sh
-zabbix ALL=(ALL) NOPASSWD: /usr/local/sbin/megaraid_discovery_pd.sh
-zabbix ALL=(ALL) NOPASSWD: /usr/local/sbin/last_puppet_run.rb
